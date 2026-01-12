@@ -154,8 +154,8 @@ rho = st.sidebar.slider("ICC (ρ) within respondent", 0.0, 0.6, 0.30, 0.05)
 
 st.sidebar.markdown("---")
 st.sidebar.header("Vignettes per respondent (m) by vignette module")
-m1 = st.sidebar.slider("m₁: Vignette 1 (Age 7–75)", 1, 6, 2, 1)
-m2 = st.sidebar.slider("m₂: Vignette 2 (Transition/adulthood 15–25)", 1, 6, 2, 1)
+m1 = st.sidebar.slider("m₁: Vignette 1 (Age 7–75)", 1, 6, 1, 1)
+m2 = st.sidebar.slider("m₂: Vignette 2 (Transition/adulthood 15–25)", 1, 6, 1, 1)
 m3 = st.sidebar.slider("m₃: Vignette 3 (Health conjoint)", 1, 6, 2, 1)
 
 st.sidebar.markdown("---")
