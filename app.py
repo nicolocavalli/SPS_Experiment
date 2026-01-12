@@ -255,7 +255,7 @@ with out_col:
     st.write(f"VAT (22%): €{costs['vat']:,.0f}")
     st.write(f"**Total (gross): €{costs['gross_total']:,.0f}**")
 
-    st.markdown("### MDE by vignette (aligned to your main tests)")
+    st.markdown("### MDE by vignette")
 
     if mode.startswith("Pooled"):
         # Vignette 1
